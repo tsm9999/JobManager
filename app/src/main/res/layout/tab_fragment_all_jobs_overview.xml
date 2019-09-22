@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALL JOBS"
+        android:id="@+id/ovrview_text"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_below="@id/app_bar"
+        android:textColor="#000000"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginBottom="10sp"
+         />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechartAllJobs"
+        android:layout_below="@id/ovrview_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+</LinearLayout>

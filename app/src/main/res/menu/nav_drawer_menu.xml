@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="View Jobs"
+            android:icon="@drawable/ic_live_tv_black_24dp"
+            android:id="@+id/view_jobs"/>
+
+        <item android:title="Add Job"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:id="@+id/add_job"/>
+
+        <item android:title="Overview"
+            android:icon="@drawable/ic_queue_music_black_24dp"
+            android:id="@+id/overview"/>
+        <item android:title="Accruals"
+            android:icon="@drawable/ic_compare_arrows_black_24dp"
+            android:id="@+id/accruals"/>
+
+    </group>
+</menu>
